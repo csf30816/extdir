@@ -1,0 +1,100 @@
+      body {
+        margin: 0;
+        background-color: #F7F7F7;
+      }
+      #web_head {
+        width: 100%;
+        margin: 0;
+        background-color: #FF802C;
+        height: 60px;
+        -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.50);
+        -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.50);
+        box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.50);
+        font: 40px/50px Helvetica, sans-serif;
+        text-align: center;
+        position: fixed;
+        margin-top: -60px;
+        display: block;
+        align-items: center;
+      }
+      #web_head_title {
+        text-shadow: 0px 0px 10px #F47825;
+        color: #F7F7F7;
+        font-size: 30px;
+      }
+      #web_head_title:hover {
+        cursor: default;
+      }
+      #web_dark {
+        background-color: #F07724;
+        width: 100%;
+        height: 150px;
+        margin-top: 60px;
+      }
+      #web_content {
+        margin-top: -20px;
+        background-color: transparent;
+      }
+      .web_content_sub {
+        width: 800px;
+        background-color: #FFF;
+        margin: 0 auto 30px auto;
+        -webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+        border-radius: 6px;
+        padding: 10px;
+        font-family: 'deep-font', sans-serif;
+      }
+      pre {
+        background-color: #FCFCFC;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        padding: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0px 0px 35px -10px rgba(0,0,0,0.56);
+        -moz-box-shadow: inset 0px 0px 35px -10px rgba(0,0,0,0.56);
+        box-shadow: inset 0px 0px 35px -10px rgba(0,0,0,0.56);
+      }
+      pre::selection {
+        color: #2599D3;
+        background: transparent;
+      }
+      pre::-moz-selection {
+        color: #2599D3;
+        background: transparent;
+      }
+      ::selection {
+        color: red;
+        background: transparent;
+      }
+      ::-moz-selection {
+        color: red;
+        background: transparent;
+      }
+      /*DDD*/
+      #myBtn {
+        transition: all .15s ease;
+        padding: 5px;
+        color: #FCFCFC;
+        float: left;
+      }
+      #myBtn:hover {
+        transition: all .15s ease;
+        color: #FFF;
+        cursor: pointer;
+      }
+      a {
+        transition: all .15s ease;
+        color: #2599D3;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        transition: all .15s ease;
+        color: #1B78A7;
+        text-decoration: underline;
+      }
+      #myBtn, img {
+        padding-bottom: 2px;
+      }
