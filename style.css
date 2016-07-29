@@ -98,3 +98,11 @@
       #myBtn, img {
         padding-bottom: 2px;
       }
+
+      .sb-label {
+        font-family: Lucida Grande,Verdana,Arial,DejaVu Sans,sans-serif;
+        font-weight: 700;
+        fill: #fff;
+        font-size: 10px;
+        word-spacing: +1px;
+      }
